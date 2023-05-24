@@ -5,9 +5,6 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  
-env:
-  PYTHON_VERSION: 3.9
 
 jobs:
   release-docs:
@@ -15,11 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Set up Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
       
       - name: Build docs
         run: |
