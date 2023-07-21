@@ -1,12 +1,11 @@
 ---
 id: data-team
 title: Data Team
-
 ---
 
 # Data Team
 
- This page provides an overview of our team's objectives, responsibilities, and guidelines. 
+This page provides an overview of our team's objectives, responsibilities, and guidelines.
 
 ## About Us
 
@@ -57,31 +56,28 @@ Effective collaboration and communication are vital for the success of our team.
 
 Meet the individuals who make up our Data Team:
 
-import ImageList from '@site/src/components/ImageList';
+import ItemList from '@site/src/components/ItemList';
+import UserCard from '@site/src/components/UserCard';
 
-export const imageItems = [
-    {
-      imageSrc: 'https://via.placeholder.com/150',
-      title: 'Image 1',
-      subtitle: 'Subtitle 1',
-    },
-    {
-      imageSrc: 'https://via.placeholder.com/150',
-      title: 'Image 2',
-      subtitle: 'Subtitle 2',
-    },
-    
-  ];
+export const teamMember1 = {
+  id: 1,
+  imageSrc: 'https://via.placeholder.com/150',
+  name: 'Image 1',
+  jobTitle: 'Subtitle 1'
+};
 
-<ImageList items={imageItems} />
+export const teamMember2 = {
+  id: 2,
+  imageSrc: 'https://via.placeholder.com/150',
+  name: 'Image 2',
+  jobTitle: 'Subtitle 2'
+};
+
+export const userCards = [
+<UserCard item={teamMember1} />,
+<UserCard item={teamMember2} />,
+];
+
+<ItemList items={userCards} />
 
 We hope this page provides you with a comprehensive understanding of our Data Team. If you have any questions or require further information, please don't hesitate to reach out to us.
-
-
-
-
-
-
-
-
-
