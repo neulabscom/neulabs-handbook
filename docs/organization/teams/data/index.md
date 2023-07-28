@@ -39,9 +39,67 @@ As members of the Data Team, we have various responsibilities, including:
 
 Our team utilizes a variety of tools and technologies to perform our tasks efficiently and effectively, including:
 
-- **Data Analysis:** Python, SQL, Jupyter Notebook, Google Sheet.
-- **Data Engineering:** dbt, Apache Airflow.
-- **Data Visualization** ReTool, Streamlit.
+import TechStack from '@site/src/components/tech/TechStack';
+
+<TechStack 
+    programmingLanguages={[
+        { 
+            name: 'Python', 
+            icon: 'https://skillicons.dev/icons?i=python' 
+        },
+        { 
+            name: 'TypeScript', 
+            icon: 'https://skillicons.dev/icons?i=typescript' 
+        },
+        { 
+            name: 'GoogleSQL', 
+            icon: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/google_bigquery_logo_icon_168150.png' 
+        }
+    ]}
+    tools={[
+        { 
+            name: 'VS Code', 
+            icon: 'https://skillicons.dev/icons?i=vscode' 
+        },
+        { 
+            name: 'Docker', 
+            icon: 'https://skillicons.dev/icons?i=docker' 
+        },
+        { 
+            name: 'ReTool', 
+            icon: 'https://assets.stickpng.com/images/62fcf7da1b464bd3c59eedb8.png' 
+        },
+        { 
+            name: 'Jupyter', 
+            icon: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg'
+        },
+        { 
+            name: 'Apache Airflow', 
+            icon: 'https://github.com/apache/airflow/blob/main/docs/apache-airflow/img/logos/airflow_64x64_emoji_transparent.png?raw=true'
+        }
+    ]}
+    frameworks={[
+        { 
+            name: 'dbt', 
+            icon: 'https://seeklogo.com/images/D/dbt-logo-500AB0BAA7-seeklogo.com.png' 
+        },
+        { 
+            name: 'Streamlit', 
+            icon: 'https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png' 
+        }
+    ]}
+    platforms={[
+        { 
+            name: 'AWS', 
+            icon: 'https://skillicons.dev/icons?i=aws' 
+        },
+        { 
+            name: 'GCP', 
+            icon: 'https://skillicons.dev/icons?i=gcp' 
+        }
+    ]}
+/>
+
 
 ## Collaboration and Communication
 
@@ -63,14 +121,22 @@ export const teamMember1 = {
   id: 1,
   imageSrc: 'https://via.placeholder.com/150',
   name: 'Image 1',
-  jobTitle: 'Subtitle 1'
+  jobTitle: 'Subtitle 1',
+  socialLinks: [
+    {name: 'github', link: 'https://github.com/username'},
+    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
+  ]
 };
 
 export const teamMember2 = {
   id: 2,
   imageSrc: 'https://via.placeholder.com/150',
   name: 'Image 2',
-  jobTitle: 'Subtitle 2'
+  jobTitle: 'Subtitle 2',
+  socialLinks: [
+    {name: 'github', link: 'https://github.com/username'},
+    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
+  ]
 };
 
 export const userCards = [
@@ -79,5 +145,7 @@ export const userCards = [
 ];
 
 <ItemList items={userCards} />
+
+---------------------
 
 We hope this page provides you with a comprehensive understanding of our Data Team. If you have any questions or require further information, please don't hesitate to reach out to us.
