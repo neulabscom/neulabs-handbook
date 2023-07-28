@@ -18,11 +18,27 @@ const sidebars = {
 
   tutorialSidebar: [
     'index',
+    'getting-started',
+    {
+      type: 'category',
+      label: 'Organization',
+      items: [
+        'organization/overview',
+        'organization/people',
+        {
+          type: 'category',
+          label: 'Teams',
+          items: [
+            'organization/teams/data/data-team',
+          ]
+        }
+      ]
+    },
     {
       type: 'category',
       label: 'How To',
       items: [
-        'how-to/aws-credentials'
+        'how-to/aws-sso-login'
       ],
     },
   ],
