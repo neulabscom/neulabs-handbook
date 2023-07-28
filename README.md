@@ -3,7 +3,6 @@
 
 ### Local Development
 
-
 ```
 $ yarn
 $ yarn start
