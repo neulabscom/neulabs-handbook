@@ -1,6 +1,10 @@
 ---
 title: Our People
+id: people
+slug: /organization/people
 ---
+
+Working in progress...
 
 import ItemList from '@site/src/components/ItemList';
 import UserCard from '@site/src/components/UserCard';
