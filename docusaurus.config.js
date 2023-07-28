@@ -39,6 +39,7 @@ const config = {
       ({
         docs: {
           routeBasePath: '/', 
+          sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: false,
         theme: {
@@ -58,6 +59,16 @@ const config = {
           srcDark: 'img/logo-white.svg',
         },
         items: [
+          {
+            label: 'How To',
+            position: 'left',
+            items: [
+              {
+                label: 'AWS Credentials',
+                to: 'aws-credentials',
+              }
+            ],
+          },
           {
             href: 'https://github.com/neulabscom/neulabs-handbook',
             label: 'GitHub',
