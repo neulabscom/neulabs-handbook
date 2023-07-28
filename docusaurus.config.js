@@ -60,16 +60,6 @@ const config = {
         },
         items: [
           {
-            label: 'How To',
-            position: 'left',
-            items: [
-              {
-                label: 'AWS Credentials',
-                to: 'aws-credentials',
-              }
-            ],
-          },
-          {
             href: 'https://github.com/neulabscom/neulabs-handbook',
             label: 'GitHub',
             position: 'right',
