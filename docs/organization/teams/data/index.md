@@ -85,7 +85,7 @@ import TechStack from '@site/src/components/tech/TechStack';
         },
         { 
             name: 'Streamlit', 
-            icon: 'https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png' 
+            icon: 'https://yt3.googleusercontent.com/ytc/AOPolaQmLHaJzUj80l56MBTt5xi3vgRIaTPni6qV-4VERA=s900-c-k-c0x00ffffff-no-rj' 
         }
     ]}
     platforms={[
@@ -119,23 +119,23 @@ import UserCard from '@site/src/components/UserCard';
 
 export const teamMember1 = {
   id: 1,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 1',
-  jobTitle: 'Subtitle 1',
+  imageSrc: '/img/people/dandpz.jpeg',
+  name: 'Daniele Dapuzzo',
+  jobTitle: 'Data Engineering Manager',
   socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
+    {name: 'github', link: 'https://github.com/dandpz'},
+    {name: 'linkedin', link: 'https://linkedin.com/in/daniele.dapuzzo'},
   ]
 };
 
 export const teamMember2 = {
   id: 2,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 2',
-  jobTitle: 'Subtitle 2',
+  imageSrc: '/img/people/edorolle.jpeg',
+  name: 'Edoardo Rolle',
+  jobTitle: 'Data Engineer',
   socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
+    {name: 'github', link: 'https://github.com/edorolle'},
+    {name: 'linkedin', link: 'https://linkedin.com/in/edoardorolle'},
   ]
 };
 
