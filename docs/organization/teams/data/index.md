@@ -86,7 +86,6 @@ import TechStack from '@site/src/components/tech/TechStack';
         { 
             name: 'Streamlit', 
             icon: 'https://yt3.googleusercontent.com/ytc/AOPolaQmLHaJzUj80l56MBTt5xi3vgRIaTPni6qV-4VERA=s900-c-k-c0x00ffffff-no-rj' 
-        }
     ]}
     platforms={[
         { 
