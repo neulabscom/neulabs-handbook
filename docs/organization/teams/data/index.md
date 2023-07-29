@@ -66,8 +66,8 @@ import TechStack from '@site/src/components/tech/TechStack';
             icon: 'https://skillicons.dev/icons?i=docker' 
         },
         { 
-            name: 'ReTool', 
-            icon: 'https://assets.stickpng.com/images/62fcf7da1b464bd3c59eedb8.png' 
+            name: 'Retool', 
+            icon: 'https://res.cloudinary.com/practicaldev/image/fetch/s--hhwvHVgG--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1997/37482868-4d05-4ee7-8e94-e5f9f8e93753.png' 
         },
         { 
             name: 'Jupyter', 
@@ -86,6 +86,7 @@ import TechStack from '@site/src/components/tech/TechStack';
         { 
             name: 'Streamlit', 
             icon: 'https://yt3.googleusercontent.com/ytc/AOPolaQmLHaJzUj80l56MBTt5xi3vgRIaTPni6qV-4VERA=s900-c-k-c0x00ffffff-no-rj' 
+        }
     ]}
     platforms={[
         { 
