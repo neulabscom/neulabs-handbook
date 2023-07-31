@@ -66,8 +66,8 @@ import TechStack from '@site/src/components/tech/TechStack';
             icon: 'https://skillicons.dev/icons?i=docker' 
         },
         { 
-            name: 'ReTool', 
-            icon: 'https://assets.stickpng.com/images/62fcf7da1b464bd3c59eedb8.png' 
+            name: 'Retool', 
+            icon: 'https://res.cloudinary.com/practicaldev/image/fetch/s--hhwvHVgG--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1997/37482868-4d05-4ee7-8e94-e5f9f8e93753.png' 
         },
         { 
             name: 'Jupyter', 
@@ -85,7 +85,7 @@ import TechStack from '@site/src/components/tech/TechStack';
         },
         { 
             name: 'Streamlit', 
-            icon: 'https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png' 
+            icon: 'https://yt3.googleusercontent.com/ytc/AOPolaQmLHaJzUj80l56MBTt5xi3vgRIaTPni6qV-4VERA=s900-c-k-c0x00ffffff-no-rj' 
         }
     ]}
     platforms={[
@@ -119,23 +119,23 @@ import UserCard from '@site/src/components/UserCard';
 
 export const teamMember1 = {
   id: 1,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 1',
-  jobTitle: 'Subtitle 1',
+  imageSrc: '/img/people/dandpz.jpeg',
+  name: 'Daniele Dapuzzo',
+  jobTitle: 'Data Engineering Manager',
   socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
+    {name: 'github', link: 'https://github.com/dandpz'},
+    {name: 'linkedin', link: 'https://linkedin.com/in/daniele.dapuzzo'},
   ]
 };
 
 export const teamMember2 = {
   id: 2,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 2',
-  jobTitle: 'Subtitle 2',
+  imageSrc: '/img/people/edorolle.jpeg',
+  name: 'Edoardo Rolle',
+  jobTitle: 'Data Engineer',
   socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
+    {name: 'github', link: 'https://github.com/edorolle'},
+    {name: 'linkedin', link: 'https://linkedin.com/in/edoardorolle'},
   ]
 };
 
