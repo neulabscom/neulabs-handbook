@@ -18,12 +18,14 @@ const sidebars = {
 
   tutorialSidebar: [
     'index',
-    'getting-started',
     {
       type: 'category',
       label: 'Organization',
       items: [
         'organization/overview',
+        'organization/roles-and-missions',
+        'organization/career-paths',
+        'organization/tech-radar',
         'organization/people',
         {
           type: 'category',
@@ -36,10 +38,51 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'How To',
+      label: 'Style Guide',
       items: [
-        'how-to/aws-sso-login'
-      ],
+        {
+          type: 'category',
+          label: 'Coding',
+          items: [
+            'style-guide/coding/ts-style-guide',
+            'style-guide/coding/py-style-guide',
+            'style-guide/coding/documentation-style-guide',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Cloud',
+          items: [
+            'style-guide/cloud/aws-style-guide',
+            'style-guide/cloud/gcp-style-guide',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'GitHub',
+          items: [
+            'style-guide/github/pull-request',
+            'style-guide/github/issues',
+            'style-guide/github/workflows',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Standard Tools',
+          items: [
+            'style-guide/standard-tools/doppler',
+            'style-guide/standard-tools/newrelic',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'How To',
+          items: [
+            'style-guide/how-to/kickstart-project',
+            'style-guide/how-to/aws-sso-login',
+          ],
+        },
+      ]
     },
   ],
 };

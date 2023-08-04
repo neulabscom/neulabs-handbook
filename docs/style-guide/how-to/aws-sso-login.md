@@ -1,7 +1,7 @@
 ---
 id: aws-sso-login
 title: AWS SSO Login
-slug: /how-to/aws-sso-login
+slug: /style-guide/how-to/aws-sso-login
 ---
 
 # AWS SSO Login
