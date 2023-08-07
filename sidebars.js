@@ -31,7 +31,8 @@ const sidebars = {
           type: 'category',
           label: 'Teams',
           items: [
-            'organization/teams/data/data-team',
+            'organization/teams/data-team',
+            'organization/teams/platform-engineering-team'
           ]
         }
       ]
