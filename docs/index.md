@@ -1,6 +1,6 @@
 ---
 id: index
-title: The Neulabs Handbook
+title: ❤️ The Neulabs Handbook
 slug: /
 ---
 

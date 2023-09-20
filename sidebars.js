@@ -20,55 +20,35 @@ const sidebars = {
     'index',
     {
       type: 'category',
-      label: 'Organization',
+      label: '🚀 Organization',
       items: [
         'organization/overview',
         'organization/roles-and-missions',
         'organization/career-paths',
         'organization/tech-radar',
-        'organization/people',
-        {
-          type: 'category',
-          label: 'Teams',
-          items: [
-            'organization/teams/data-team',
-            'organization/teams/platform-engineering-team'
-          ]
-        }
-      ]
+        'organization/people'
+      ],
+      link: {
+        type: 'generated-index',
+        title: 'Organization',
+        slug: '/organization',
+        keywords: ['guides'],
+      },
     },
     {
       type: 'category',
-      label: 'Style Guide',
+      label: '⭐ Teams',
       items: [
-        {
-          type: 'category',
-          label: 'Coding',
-          items: [
-            'style-guide/coding/ts-style-guide',
-            'style-guide/coding/py-style-guide',
-            'style-guide/coding/documentation-style-guide',
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Cloud',
-          items: [
-            'style-guide/cloud/aws-style-guide',
-            'style-guide/cloud/gcp-style-guide',
-          ]
-        },
-        {
-          type: 'category',
-          label: 'GitHub',
-          items: [
-            'style-guide/github/pull-request',
-            'style-guide/github/issues',
-            'style-guide/github/workflows',
-          ]
-        }
-      ]
-    },
+        'teams/data-team',
+        'teams/platform-engineering-team'
+      ],
+      link: {
+        type: 'generated-index',
+        title: 'Teams',
+        slug: '/teams',
+        keywords: ['guides'],
+      },
+    }
   ],
 };
 
