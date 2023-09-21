@@ -1,15 +1,15 @@
 ---
-id: platform-engineering-team
-title: Platform Engineering Team
+id: devops-engineering-team
+title: DevOps Team
 ---
-# Platform Engineering Team
+# DevOps Team
 
 
 This page provides an overview of our team's objectives, responsibilities, and guidelines.
 
 ## About Us
 
-The Platform Engineering Team at Neulabs is a dynamic group of professionals responsible for bridging the gap between development and operations. This team plays a crucial role in streamlining the software development process, ensuring continuous integration, continuous delivery, and optimal performance of our products and services.
+The DevOps Team at Neulabs is a dynamic group of professionals responsible for bridging the gap between development and operations. This team plays a crucial role in streamlining the software development process, ensuring continuous integration, continuous delivery, and optimal performance of our products and services.
 
 ## Objectives
 
@@ -28,7 +28,7 @@ Our team's primary objectives include:
 
 ## Responsibilities
 
-The members of the Platform Engineering Team possess expertise in the following areas:
+The members of the DevOps Team possess expertise in the following areas:
 
 - Continuous Integration and Continuous Delivery (CI/CD): Proficiency in setting up and managing CI/CD pipelines to automate the software delivery process.
 - Cloud Platforms: Knowledge of cloud platforms such as AWS, Azure, or GCP, and the ability to deploy and manage applications in cloud environments.
@@ -137,7 +137,7 @@ Effective collaboration and communication are vital for the success of our team.
 
 ## Team Members
 
-Meet the individuals who make up our Platform Engineering Team:
+Meet the individuals who make up our DevOps Team:
 
 import ItemList from '@site/src/components/ItemList';
 import UserCard from '@site/src/components/UserCard';
@@ -146,7 +146,7 @@ export const teamMember1 = {
   id: 1,
   imageSrc: '/img/people/fabrizio-cafolla.jpeg',
   name: 'Fabrizio Cafolla',
-  jobTitle: 'Platform Engineer',
+  jobTitle: 'Devops & Platform Engineer',
   socialLinks: [
     {name: 'github', link: 'https://github.com/FabrizioCafolla'},
     {name: 'linkedin', link: 'https://linkedin.com/in/fabrizio-cafolla'},
