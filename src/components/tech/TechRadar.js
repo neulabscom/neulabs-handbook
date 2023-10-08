@@ -466,10 +466,10 @@ const TechRadar = ({ entries }) => {
       },
       date: "2023.10",
       quadrants: [
-        { name: "Languages" },
-        { name: "Infrastructure" },
-        { name: "Datastores" },
-        { name: "Data Management" },
+        { name: "Languages & Frameworks" },
+        { name: "Platforms & Infrastructure" },
+        { name: "Data Management & Storage" },
+        { name: "Tools" },
       ],
       rings: [
         { name: "ADOPT", color: "#5ba300" },
@@ -555,7 +555,7 @@ const TechRadar = ({ entries }) => {
       </p>
 
       <p>
-        By the way, our Neulabs Tech Radar is implemented based on the open
+        By the way, our Neulabs Tech Radar is built on top of the open
         source code provided by <a href="https://opensource.zalando.com/tech-radar/">Zalando</a>. If you would like to create your own
         Tech Radar, you can use their <a href="https://github.com/zalando/tech-radar/tree/master">open source code</a> for visualization.
       </p>
