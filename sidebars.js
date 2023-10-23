@@ -22,7 +22,7 @@ const sidebars = {
       type: 'category',
       label: '🚀 Organization',
       items: [
-        'organization/vision-and-missions',
+        'organization/vision-and-mission',
         'organization/roles-and-careers-path',
         'organization/tech-radar',
         'organization/people'

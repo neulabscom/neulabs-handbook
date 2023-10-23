@@ -1,6 +1,6 @@
 ---
-id: vision-and-missions
-title: Overview
+id: vision-and-mission
+title: Vision and Mission
 ---
 
 Working in progress...
