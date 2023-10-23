@@ -22,9 +22,8 @@ const sidebars = {
       type: 'category',
       label: '🚀 Organization',
       items: [
-        'organization/overview',
-        'organization/roles-and-missions',
-        'organization/career-paths',
+        'organization/vision-and-missions',
+        'organization/roles-and-careers-path',
         'organization/tech-radar',
         'organization/people'
       ],

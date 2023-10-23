@@ -1,7 +1,6 @@
 ---
-id: overview
+id: vision-and-missions
 title: Overview
-slug: /organization/overview
 ---
 
 Working in progress...
