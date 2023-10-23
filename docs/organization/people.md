@@ -1,7 +1,6 @@
 ---
 title: Our People
 id: people
-slug: /organization/people
 ---
 
 Working in progress...

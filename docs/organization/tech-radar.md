@@ -1,6 +1,6 @@
 ---
 id: tech-radar
-title: Neulabs Tech Radar
+title: Tech Radar
 ---
 
 import TechRadar from '@site/src/components/tech/TechRadar';
