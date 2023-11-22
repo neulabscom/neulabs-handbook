@@ -1,8 +1,7 @@
-// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -60,7 +59,11 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/neulabscom/neulabs-handbook',
+            label: 'Open positions',
+            to: 'https://neulabs.com/careers#open-jobs',
+          },
+          {
+            to: 'https://github.com/neulabscom/neulabs-handbook',
             label: 'GitHub',
             position: 'right',
           },

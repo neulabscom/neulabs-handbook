@@ -3,8 +3,6 @@ title: Our People
 id: people
 ---
 
-Working in progress...
-
 import ItemList from '@site/src/components/ItemList';
 import UserCard from '@site/src/components/UserCard';
 export const teamMember1 = {
