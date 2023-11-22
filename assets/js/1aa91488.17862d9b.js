@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[31],{2356:e=>{e.exports=JSON.parse('{"title":"Teams","keywords":["guides"],"slug":"/teams","permalink":"/teams","navigation":{"previous":{"title":"Tech Radar","permalink":"/organization/tech-radar"},"next":{"title":"Data Team","permalink":"/teams/data-team"}}}')}}]);
