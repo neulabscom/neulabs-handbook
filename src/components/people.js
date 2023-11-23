@@ -72,13 +72,49 @@ export const andreaPregnolato = {
 };
 
 export const nicholasRoscino = {
-    id: 7,
-    imageSrc: '/img/people/nicholas-roscino.jpeg',
-    name: 'Nicholas Roscino',
-    jobTitle: 'Software Engineer',
+  id: 7,
+  imageSrc: '/img/people/nicholas-roscino.jpeg',
+  name: 'Nicholas Roscino',
+  jobTitle: 'Software Engineer',
+  team: 'manager',
+  socialLinks: [
+    {name: 'github', link: ''},
+    {name: 'linkedin', link: 'https://linkedin.com/in/nicholas-roscino-842404150'},
+  ]
+};
+
+export const simoneSquillace = {
+  id: 8,
+  imageSrc: '/img/people/simone-squillace.jpeg',
+  name: 'Simone Squillace',
+  jobTitle: 'Software Engineer',
+  team: 'd2c',
+  socialLinks: [
+    {name: 'github', link: 'https://github.com/thatsimo'},
+    {name: 'linkedin', link: 'https://linkedin.com/in/simone-squillace-455abb14b'},
+  ]
+};
+
+export const giuseppeSchipani = {
+    id: 9,
+    imageSrc: '/img/people/giuseppe-schipani.jpeg',
+    name: 'Giuseppe Schipani',
+    jobTitle: 'CTO',
     team: 'manager',
     socialLinks: [
       {name: 'github', link: ''},
-      {name: 'linkedin', link: 'https://linkedin.com/in/nicholas-roscino-842404150'},
+      {name: 'linkedin', link: 'https://linkedin.com/in/giuseppeschipani'},
+    ]
+};
+
+export const filippoLocoro = {
+    id: 10,
+    imageSrc: '/img/people/filippo-locoro.jpeg',
+    name: 'Filippo Locoro',
+    jobTitle: 'Full Stack Developer',
+    team: 'd2c',
+    socialLinks: [
+      {name: 'github', link: 'https://github.com/filippolcr'},
+      {name: 'linkedin', link: 'https://linkedin.com/in/filippolocoro'},
     ]
 };

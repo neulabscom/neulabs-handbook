@@ -152,4 +152,4 @@ export const userCards = [
 
 ---------------------
 
-We hope this page provides you with a comprehensive understanding of our Data Team. If you have any questions or require further information, please don't hesitate to reach out to us.
+We hope this page provides you with a comprehensive understanding of our DevOps Team. If you have any questions or require further information, please don't hesitate to reach out to us.
