@@ -3,74 +3,28 @@ title: Our People
 id: people
 ---
 
+import {fabrizioCafolla, danieleDapuzzo, edoardoRolle, sergioVagni, skenderMoglica, andreaPregnolato, nicholasRoscino} from '@site/src/components/people';
 import ItemList from '@site/src/components/ItemList';
 import UserCard from '@site/src/components/UserCard';
-export const teamMember1 = {
-  id: 1,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 1',
-  jobTitle: 'Subtitle 1',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
-  ]
-};
-
-export const teamMember2 = {
-  id: 2,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 2',
-  jobTitle: 'Subtitle 2',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
-  ]
-};
-
-export const teamMember3 = {
-  id: 3,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 1',
-  jobTitle: 'Subtitle 1',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
-  ]
-};
-
-export const teamMember4 = {
-  id: 4,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 2',
-  jobTitle: 'Subtitle 2',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
-  ]
-};
-
-export const teamMember5 = {
-  id: 5,
-  imageSrc: 'https://via.placeholder.com/150',
-  name: 'Image 1',
-  jobTitle: 'Subtitle 1',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/username'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/username'},
-  ]
-};
 
 
-export const userCards = [
-<UserCard item={teamMember1} />,
-<UserCard item={teamMember2} />,
-<UserCard item={teamMember3} />,
-<UserCard item={teamMember4} />,
-<UserCard item={teamMember5} />,
+
+export const userCards1 = [
+<UserCard item={andreaPregnolato} />,
+<UserCard item={fabrizioCafolla} />,
+<UserCard item={danieleDapuzzo} />,
+<UserCard item={skenderMoglica} />,
 ];
 
-<ItemList items={userCards} />
+
+export const userCards2 = [
+<UserCard item={sergioVagni} />,
+<UserCard item={nicholasRoscino} />,
+<UserCard item={edoardoRolle} />,
+];
+
+<ItemList items={userCards1} />
 
 <div style={{ margin: '50px 0' }}></div>
 
-<ItemList items={userCards} />
+<ItemList items={userCards2} />

@@ -114,34 +114,14 @@ Effective collaboration and communication are vital for the success of our team.
 
 Meet the individuals who make up our Data Team:
 
+import {danieleDapuzzo, edoardoRolle} from '@site/src/components/people';
+
 import ItemList from '@site/src/components/ItemList';
 import UserCard from '@site/src/components/UserCard';
 
-export const teamMember1 = {
-  id: 1,
-  imageSrc: '/img/people/dandpz.jpeg',
-  name: 'Daniele Dapuzzo',
-  jobTitle: 'Data Engineering Manager',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/dandpz'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/daniele.dapuzzo'},
-  ]
-};
-
-export const teamMember2 = {
-  id: 2,
-  imageSrc: '/img/people/edorolle.jpeg',
-  name: 'Edoardo Rolle',
-  jobTitle: 'Data Engineer',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/edorolle'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/edoardorolle'},
-  ]
-};
-
 export const userCards = [
-<UserCard item={teamMember1} />,
-<UserCard item={teamMember2} />,
+<UserCard item={danieleDapuzzo} />,
+<UserCard item={edoardoRolle} />,
 ];
 
 <ItemList items={userCards} />

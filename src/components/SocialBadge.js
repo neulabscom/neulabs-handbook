@@ -6,9 +6,9 @@ const SocialBadge = ({ github, linkedin }) => {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <a href={github} style={{ margin: '0 10px' }} target="_blank" rel="noopener noreferrer">
+        { github ? <a href={github} style={{ margin: '0 10px' }} target="_blank" rel="noopener noreferrer">
           <img src={isDarkTheme ? 'https://cdn-icons-png.flaticon.com/128/5968/5968866.png' : 'https://cdn-icons-png.flaticon.com/128/5968/5968866.png'} alt='github' style={{ width: '40px', height: '40px', objectFit: 'cover' }} />
-        </a>
+        </a> : null}
         <a href={linkedin} style={{ margin: '0 10px' }} target="_blank" rel="noopener noreferrer">
         <img src={isDarkTheme ? 'https://cdn-icons-png.flaticon.com/128/3536/3536569.png' : 'https://cdn-icons-png.flaticon.com/128/3536/3536569.png'} alt='linkedin' style={{ width: '40px', height: '40px', objectFit: 'cover' }} />
         </a>

@@ -23,7 +23,7 @@ const sidebars = {
       label: '⭐ Teams',
       items: [
         'teams/data-team',
-        'teams/devops-engineering-team'
+        'teams/devops-team'
       ],
       link: {
         type: 'generated-index',

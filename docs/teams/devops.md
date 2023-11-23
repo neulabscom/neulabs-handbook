@@ -1,5 +1,5 @@
 ---
-id: devops-engineering-team
+id: devops-team
 title: DevOps Team
 ---
 # DevOps Team
@@ -142,19 +142,10 @@ Meet the individuals who make up our DevOps Team:
 import ItemList from '@site/src/components/ItemList';
 import UserCard from '@site/src/components/UserCard';
 
-export const teamMember1 = {
-  id: 1,
-  imageSrc: '/img/people/fabrizio-cafolla.jpeg',
-  name: 'Fabrizio Cafolla',
-  jobTitle: 'Devops & Platform Engineer',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/FabrizioCafolla'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/fabrizio-cafolla'},
-  ]
-};
+import {fabrizioCafolla} from '@site/src/components/people';
 
 export const userCards = [
-<UserCard item={teamMember1} />,
+<UserCard item={fabrizioCafolla} />,
 ];
 
 <ItemList items={userCards} />
