@@ -110,21 +110,6 @@ Effective collaboration and communication are vital for the success of our team.
 - Encouraging open and transparent communication channels to foster knowledge sharing and cross-team collaboration.
 - Conducting knowledge-sharing sessions and workshops to enhance skills and promote learning within the team.
 
-## Team Members
-
-Meet the individuals who make up our Data Team:
-
-import {danieleDapuzzo, edoardoRolle} from '@site/src/components/people';
-
-import ItemList from '@site/src/components/ItemList';
-import UserCard from '@site/src/components/UserCard';
-
-export const userCards = [
-<UserCard item={danieleDapuzzo} />,
-<UserCard item={edoardoRolle} />,
-];
-
-<ItemList items={userCards} />
 
 ---------------------
 

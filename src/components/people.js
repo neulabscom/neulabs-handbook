@@ -1,20 +1,8 @@
-export const fabrizioCafolla = {
-  id: 1,
-  imageSrc: '/img/people/fabrizio-cafolla.jpeg',
-  name: 'Fabrizio Cafolla',
-  jobTitle: 'DevOps Engineer',
-  team: 'devops',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/FabrizioCafolla'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/fabrizio-cafolla'},
-  ]
-};
-
 export const danieleDapuzzo = {
   id: 2,
   imageSrc: '/img/people/daniele-dapuzzo.jpeg',
   name: 'Daniele Dapuzzo',
-  jobTitle: 'Data Engineer Manager',
+  jobTitle: 'Data Engineer',
   team: 'data',
   socialLinks: [
     {name: 'github', link: 'https://github.com/dandpz'},
@@ -104,17 +92,5 @@ export const giuseppeSchipani = {
     socialLinks: [
       {name: 'github', link: ''},
       {name: 'linkedin', link: 'https://linkedin.com/in/giuseppeschipani'},
-    ]
-};
-
-export const filippoLocoro = {
-    id: 10,
-    imageSrc: '/img/people/filippo-locoro.jpeg',
-    name: 'Filippo Locoro',
-    jobTitle: 'Full Stack Developer',
-    team: 'd2c',
-    socialLinks: [
-      {name: 'github', link: 'https://github.com/filippolcr'},
-      {name: 'linkedin', link: 'https://linkedin.com/in/filippolocoro'},
     ]
 };
