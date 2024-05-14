@@ -135,20 +135,6 @@ Effective collaboration and communication are vital for the success of our team.
 - Encouraging open and transparent communication channels to foster knowledge sharing and cross-team collaboration.
 - Conducting knowledge-sharing sessions and workshops to enhance skills and promote learning within the team.
 
-## Team Members
-
-Meet the individuals who make up our DevOps Team:
-
-import ItemList from '@site/src/components/ItemList';
-import UserCard from '@site/src/components/UserCard';
-
-import {fabrizioCafolla} from '@site/src/components/people';
-
-export const userCards = [
-<UserCard item={fabrizioCafolla} />,
-];
-
-<ItemList items={userCards} />
 
 ---------------------
 
