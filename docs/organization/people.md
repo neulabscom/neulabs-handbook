@@ -3,7 +3,7 @@ title: Our People
 id: people
 ---
 
-import { danieleDapuzzo, edoardoRolle, sergioVagni, skenderMoglica, andreaPregnolato, nicholasRoscino, simoneSquillace, giuseppeSchipani } from '@site/src/components/people';
+import { danieleDapuzzo, edoardoRolle, sergioVagni, skenderMoglica, nicholasRoscino, giuseppeSchipani } from '@site/src/components/people';
 import ItemList from '@site/src/components/ItemList';
 import UserCard from '@site/src/components/UserCard';
 

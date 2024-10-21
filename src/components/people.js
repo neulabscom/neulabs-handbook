@@ -47,18 +47,6 @@ export const skenderMoglica = {
     ]
 };
 
-export const andreaPregnolato = {
-    id: 6,
-    imageSrc: '/img/people/andrea-pregnolato.jpeg',
-    name: 'Andrea Pregnolato',
-    jobTitle: 'VP of Engineering',
-    team: 'manager',
-    socialLinks: [
-      {name: 'github', link: 'https://github.com/pregno'},
-      {name: 'linkedin', link: 'https://linkedin.com/in/andreapregnolato'},
-    ]
-};
-
 export const nicholasRoscino = {
   id: 7,
   imageSrc: '/img/people/nicholas-roscino.jpeg',
@@ -68,18 +56,6 @@ export const nicholasRoscino = {
   socialLinks: [
     {name: 'github', link: ''},
     {name: 'linkedin', link: 'https://linkedin.com/in/nicholas-roscino-842404150'},
-  ]
-};
-
-export const simoneSquillace = {
-  id: 8,
-  imageSrc: '/img/people/simone-squillace.jpeg',
-  name: 'Simone Squillace',
-  jobTitle: 'Software Engineer',
-  team: 'd2c',
-  socialLinks: [
-    {name: 'github', link: 'https://github.com/thatsimo'},
-    {name: 'linkedin', link: 'https://linkedin.com/in/simone-squillace-455abb14b'},
   ]
 };
 
