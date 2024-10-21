@@ -11,7 +11,6 @@ import UserCard from '@site/src/components/UserCard';
 
 export const userCards1 = [
     <UserCard item={giuseppeSchipani} />,
-    <UserCard item={andreaPregnolato} />,
 ];
 
 export const userCards2 = [
@@ -24,8 +23,6 @@ export const userCards2 = [
 export const userCards3 = [
     <UserCard item={danieleDapuzzo} />,
     <UserCard item={edoardoRolle} />,
-    
-    <UserCard item={simoneSquillace} />,
 ];
 
 <ItemList items={userCards1} />
